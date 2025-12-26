@@ -50,6 +50,5 @@ public class PID {
 		Integral = 0;
 		thisError = 0;
 		lastError = 49;
-
 	}	
 }

@@ -14,12 +14,11 @@ public final class Constants {
     public static final int Player1Port = 0;
     public static final int Player2Port = 1;
 
-    public static final double kMove = 1;
-    public static final double kturn = 1;
+    public static final double kMove = 0.5;
+    public static final double kturn = 0.5;
     // 初始朝向 (機器人 vs 操作者)，單位 = 度
     public static final double OriginRobotHeading = 0;
     public static final double DriverHeading = 0; 
-
   }
   //motor ID
   public static class MotorControllerID {
@@ -32,6 +31,12 @@ public final class Constants {
     public static final int LR_DriveID        = 8;
     public static final int RF_DriveID        = 6;
     public static final int RR_DriveID        = 7;
+  
+    public static final int L_getmotor        = 8;
+    public static final int R_getmotor        = 9;
+
+    public static final int ShootMotor1       =10;
+    public static final int ShootMotor2       =11;
   }
 
   //motor speed constants

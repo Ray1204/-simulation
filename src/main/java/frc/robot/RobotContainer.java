@@ -29,9 +29,9 @@ public RobotContainer() {
 private void player1CommandList() {
     // swerve
     swerve.setDefaultCommand(new JoystickSwerve(swerve, 
+    ()->-js1.getY(),
     ()->js1.getX(),
-    ()->js1.getY(),
-    ()->js1.getRawAxis(4))
+    ()->-js1.getRawAxis(4))
     );
   }
 }
